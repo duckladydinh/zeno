@@ -26,7 +26,7 @@
     <orderEntry type="library" name="kotlin-stdlib-jdk7_b9131a" level="project" />
     <orderEntry type="library" name="kotlin-test-junit-1.6.10_4a62b333" level="project" />
     <orderEntry type="library" name="clikt-jvm-3.4.0_2a386fd1" level="project" />
-    <orderEntry type="library" name="kitty_d922521d" level="project" />
-    <orderEntry type="library" name="kitty_test_4b724a72" level="project" />
+    <orderEntry type="library" name="kitty_lib_41818f38" level="project" />
+    <orderEntry type="library" name="kitty_test_7b12628d" level="project" />
   </component>
 </module>
