@@ -1,0 +1,10 @@
+# Run:
+#  rm -rf gen/* && buf generate https://github.com/duckladydinh/giathuanapis.git
+version: v1
+plugins:
+  - name: java
+    out: gen
+  - name: grpc-java
+    out: gen
+  - name: grpc-kotlin
+    out: gen

@@ -48,8 +48,29 @@ load("@rules_jvm_external//:defs.bzl", "maven_install")
 maven_install(
     artifacts = [
         "junit:junit:4.12",
-        "com.github.ajalt.clikt:clikt-jvm:3.4.0",
         "org.jetbrains.kotlin:kotlin-test-junit:1.6.10",
+
+        # CLI
+        "com.github.ajalt.clikt:clikt-jvm:3.4.0",
+
+        # flogger
+        "com.google.flogger:flogger:0.7.1",
+        "com.google.flogger:flogger-system-backend:0.7.1",
+
+        # grpc-java
+        "com.google.protobuf:protobuf-java:3.19.1",
+        "com.google.api.grpc:proto-google-common-protos:2.6.0",
+        "com.google.guava:guava:30.1-jre",
+        "org.apache.tomcat:annotations-api:6.0.53",
+        "io.grpc:grpc-netty-shaded:1.42.0",
+        "io.grpc:grpc-protobuf:1.42.0",
+        "io.grpc:grpc-stub:1.42.0",
+        "io.grpc:grpc-services:1.42.0",
+        "io.grpc:grpc-core:1.42.0",
+        "io.grpc:grpc-api:1.42.0",
+
+        # grpc-kotlin
+        "io.grpc:grpc-kotlin-stub:1.2.0",
     ],
     repositories = [
         # Private repositories are supported through HTTP Basic auth
