@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="grpc-netty-shaded-1.42.0_bf744a3e">
-    <CLASSES>
-      <root url="jar://$USER_HOME$/.cache/bazel/_bazel_thuan/9a0c244defa0350c82d88b8675c856b3/external/maven/v1/https/repo1.maven.org/maven2/io/grpc/grpc-netty-shaded/1.42.0/grpc-netty-shaded-1.42.0.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>

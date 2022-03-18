@@ -14,7 +14,7 @@ kt_jvm_library(
 
 java_binary(
     name = "kitty_bin",
-    main_class = "com.giathuan.example.kitty.KittyKt",
+    main_class = "com.giathuan.examples.kitty.KittyKt",
     runtime_deps = [":kitty_lib"],
 )
 

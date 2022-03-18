@@ -1,4 +1,4 @@
-package com.giathuan.example.kitty
+package com.giathuan.examples.kitty
 
 import kotlin.test.Test
 import kotlin.test.assertEquals
