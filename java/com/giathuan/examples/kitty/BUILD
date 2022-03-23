@@ -1,5 +1,5 @@
 load("@io_bazel_rules_kotlin//kotlin:jvm.bzl", "kt_jvm_library")
-load("//common:build_defs.bzl", "java_elf")
+load("//common/bzl:build_defs.bzl", "java_elf")
 
 kt_jvm_library(
     name = "kitty_lib",
