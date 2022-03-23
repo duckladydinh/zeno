@@ -19,3 +19,6 @@ additional_languages:
   # python
   # scala
   typescript
+
+test_sources:
+  javatests/*
