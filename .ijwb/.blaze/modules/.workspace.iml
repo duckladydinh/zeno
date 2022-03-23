@@ -11,7 +11,7 @@
     <content url="file://$MODULE_DIR$/../../..">
       <sourceFolder url="file://$MODULE_DIR$/../../../gen" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../../../java" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../../../javatests" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../javatests" isTestSource="true" />
       <excludeFolder url="file://$MODULE_DIR$/../../../bazel-bin" />
       <excludeFolder url="file://$MODULE_DIR$/../../../bazel-genfiles" />
       <excludeFolder url="file://$MODULE_DIR$/../../../bazel-out" />
@@ -21,23 +21,23 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="grpc-kotlin-stub-1.2.0_60c31536" level="project" />
-    <orderEntry type="library" name="grpc-stub-1.42.0_b20ffb32" level="project" />
-    <orderEntry type="library" name="grpc-protobuf-1.42.0_d311abb5" level="project" />
-    <orderEntry type="library" name="annotations-api-6.0.53_17c73a02" level="project" />
+    <orderEntry type="library" name="header_grpc-kotlin-stub-1.2.0_d74976dd" level="project" />
+    <orderEntry type="library" name="header_grpc-stub-1.42.0_1ece6619" level="project" />
+    <orderEntry type="library" name="header_kotlin-test-junit-1.6.10_a255eeac" level="project" />
+    <orderEntry type="library" name="header_grpc-protobuf-1.42.0_93424b1c" level="project" />
+    <orderEntry type="library" name="header_annotations-api-6.0.53_67b8f6e9" level="project" />
     <orderEntry type="library" name="kotlin-stdlib-jdk7_b9131a" level="project" />
-    <orderEntry type="library" name="flogger-0.7.1_182461d" level="project" />
-    <orderEntry type="library" name="proto-google-common-protos-2.6.0_a7aae2ba" level="project" />
-    <orderEntry type="library" name="grpc-services-1.42.0_bc62a382" level="project" />
+    <orderEntry type="library" name="header_flogger-0.7.1_eff6da04" level="project" />
+    <orderEntry type="library" name="header_proto-google-common-protos-2.6.0_71d7d21" level="project" />
+    <orderEntry type="library" name="header_grpc-services-1.42.0_7c9342e9" level="project" />
+    <orderEntry type="library" name="header_clikt-jvm-3.4.0_61723a78" level="project" />
     <orderEntry type="library" name="kotlin-stdlib-jdk8_b9131a" level="project" />
     <orderEntry type="library" name="kotlin-stdlib_b9131a" level="project" />
     <orderEntry type="library" name="header_junit-4.12_6412671f" level="project" />
-    <orderEntry type="library" name="grpc-core-1.42.0_192bd321" level="project" />
-    <orderEntry type="library" name="guava-30.1-jre_2bbdcedf" level="project" />
-    <orderEntry type="library" name="protobuf-java-3.19.1_b1c53868" level="project" />
-    <orderEntry type="library" name="grpc-api-1.42.0_b6fe211e" level="project" />
-    <orderEntry type="library" name="kotlin-test-junit-1.6.10_4a62b333" level="project" />
-    <orderEntry type="library" name="clikt-jvm-3.4.0_2a386fd1" level="project" />
+    <orderEntry type="library" name="header_grpc-core-1.42.0_85ea3e08" level="project" />
+    <orderEntry type="library" name="header_guava-30.1-jre_8603a218" level="project" />
+    <orderEntry type="library" name="header_protobuf-java-3.19.1_1b6f54f" level="project" />
+    <orderEntry type="library" name="header_grpc-api-1.42.0_46e33d57" level="project" />
     <orderEntry type="library" name="kitty_lib_958c7e93" level="project" />
     <orderEntry type="library" name="kitty_test_8e1615de" level="project" />
     <orderEntry type="library" name="fibonacci_test_2547b6a1" level="project" />
