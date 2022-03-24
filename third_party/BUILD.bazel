@@ -1,0 +1,9 @@
+package(default_visibility = ["//visibility:public"])
+
+cc_library(
+    name = "atcoder",
+    srcs = [],
+    hdrs = glob(["ac-library/atcoder/*"]),
+    strip_include_prefix = "ac-library",
+    deps = [],
+)

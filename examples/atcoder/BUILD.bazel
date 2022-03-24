@@ -1,0 +1,19 @@
+cc_binary(
+    name = "twosat_example",
+    srcs = ["twosat_example.cpp"],
+    deps = [
+        "//third_party:atcoder",
+    ],
+)
+
+sh_binary(
+    name = "twosat_example_runner",
+    srcs = ["twosat_example.sh"],
+    data = [
+        ":twosat_example",
+        ":twosat_example.txt",
+    ],
+    deps = [
+        "@bazel_tools//tools/bash/runfiles",
+    ],
+)
