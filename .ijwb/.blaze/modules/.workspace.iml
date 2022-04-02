@@ -28,6 +28,7 @@
     <orderEntry type="library" name="header_annotations-api-6.0.53_67b8f6e9" level="project" />
     <orderEntry type="library" name="kotlin-stdlib-jdk7_b9131a" level="project" />
     <orderEntry type="library" name="header_flogger-0.7.1_eff6da04" level="project" />
+    <orderEntry type="library" name="protobuf-java-3.19.2-ijar_a108e1c" level="project" />
     <orderEntry type="library" name="header_proto-google-common-protos-2.6.0_71d7d21" level="project" />
     <orderEntry type="library" name="header_grpc-services-1.42.0_7c9342e9" level="project" />
     <orderEntry type="library" name="header_clikt-jvm-3.4.0_61723a78" level="project" />
@@ -38,10 +39,12 @@
     <orderEntry type="library" name="header_guava-30.1-jre_8603a218" level="project" />
     <orderEntry type="library" name="header_protobuf-java-3.19.1_1b6f54f" level="project" />
     <orderEntry type="library" name="header_grpc-api-1.42.0_46e33d57" level="project" />
+    <orderEntry type="library" name="guava-30.1-jre_2bbdcedf" level="project" />
     <orderEntry type="library" name="kitty_lib_958c7e93" level="project" />
     <orderEntry type="library" name="kitty_test_8e1615de" level="project" />
     <orderEntry type="library" name="fibonacci_test_2547b6a1" level="project" />
     <orderEntry type="library" name="gen_kotlin_lib_475a3bf6" level="project" />
+    <orderEntry type="library" name="libjsnippets_proto-speed-hjar_5d05e93e" level="project" />
     <orderEntry type="library" name="fibonacci_lib_d981084c" level="project" />
   </component>
 </module>

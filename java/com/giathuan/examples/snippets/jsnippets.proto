@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package examples.snippets;
+
+option java_multiple_files = true;
+option java_package = "com.giathuan.examples.snippets";
+option java_outer_classname = "JSnippetsProto";
+
+message Student {
+  string name = 1;
+  int32 age = 2;
+  string school = 3;
+  int32 grade = 4;
+}

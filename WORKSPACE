@@ -2,6 +2,23 @@ workspace(name = "zeno")
 
 load("@bazel_tools//tools/build_defs/repo:http.bzl", "http_archive")
 
+# Bazel rules: proto (without grpc)
+## See: https://github.com/bazelbuild/rules_proto/releases/tag/4.0.0-3.19.2.
+http_archive(
+    name = "rules_proto",
+    sha256 = "c22cfcb3f22a0ae2e684801ea8dfed070ba5bed25e73f73580564f250475e72d",
+    strip_prefix = "rules_proto-4.0.0-3.19.2",
+    urls = [
+        "https://github.com/bazelbuild/rules_proto/archive/refs/tags/4.0.0-3.19.2.tar.gz",
+    ],
+)
+
+load("@rules_proto//proto:repositories.bzl", "rules_proto_dependencies", "rules_proto_toolchains")
+
+rules_proto_dependencies()
+
+rules_proto_toolchains()
+
 # Bazel Rule: kotlin
 rules_kotlin_version = "v1.5.0"
 
